@@ -1,0 +1,128 @@
+body{
+	background-color: floralwhite; font-family: Arial; font-style: sans-serif;
+}
+
+.head1{
+	border: 2px solid darkred; font-size: 40px; color: darkgreen; background-color: rgb(248, 248, 220); text-align: center;
+}
+
+.head2{
+	color: darkred; font-size: 30px;
+}
+
+.text1{
+	font-size: 18px; font-weight: 750; color: darkgreen;
+}
+
+label{
+	font-size: 18px; font-weight: 700; color: darkgreen;
+}
+
+.text2{
+	text-align: center; font-size: 16px; font-weight: bold; font-style: italic; color: darkgreen;
+}
+
+.formtitle{
+	text-align: center; font-size: 30px; font-weight: bolder; color: darkred;
+}
+
+.wrapper{
+	width: 20%;
+	margin: 0 auto;
+    margin-left: 145px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+input{
+	width: 500px;
+    height: 40px;
+    border: solid darkred 2px;
+    font-size: 16px; 
+    text-align: center; 
+    font-family: times new roman; 
+    font-style: italic;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.gender{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0 auto;
+}
+
+.gend {
+    margin-left: 0 auto;
+    font-size: 14px; 
+    font-family: 'Times New Roman'; 
+    font-style: italic;
+    padding: 0 auto;
+}
+
+.education{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0 auto;
+}
+
+.edu {
+    margin-left: 0 auto;
+    font-size: 14px; 
+    font-family: 'Times New Roman'; 
+    font-style: italic;
+}
+
+textarea{
+    width: 500px;
+    height: 150px;
+    border: solid darkred 2px;
+    font-size: 14px; 
+    text-align: center;
+    text-emphasis-position: ; 
+    font-family: times new roman; 
+    font-style: italic;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    border: solid black 2px;
+    font-size: 16px; 
+    text-align: center; 
+    font-family: times new roman;
+    color: yellow; 
+    font-style: italic;
+    font-weight: bolder;
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: green;
+    border-radius: 5px;
+    margin-left: 120px;
+}
+
+button:hover {
+    background-color: darkred;
+    color: yellow;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    border-radius: 2px;
+}
+
+.button_group{
+    display: flex;
+    gap: 10px;
+}
+
+.form-outer-border {
+    border: 2px solid gray;
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+    background-color: #fffaf0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
