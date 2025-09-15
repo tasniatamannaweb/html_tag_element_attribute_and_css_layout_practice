@@ -94,7 +94,7 @@ li {
 
 .text3 {
   color: darkgreen;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 /*link*/
@@ -258,4 +258,5 @@ abbr {
   font-family: sans-serif; 
   margin-top: 40px;
 }
+
 
