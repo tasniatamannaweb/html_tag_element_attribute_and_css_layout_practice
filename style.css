@@ -1,0 +1,261 @@
+/*whole body*/
+body {
+  background-color: floralwhite;
+  font-family: Arial, sans-serif;
+}
+
+/* header */
+.header {
+  min-height: 100px;
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+
+.head1 {
+  border: 2px solid darkred;
+  font-size: 40px;
+  color: darkgreen;
+  background-color: ghostwhite;
+  text-align: center;
+}
+
+.text1 {
+  font-size: 18px;
+  font-weight: 750;
+  color: darkgreen;
+  background-color: ghostwhite;
+}
+
+.text2 {
+  font-size: 18px;
+  font-weight: 750;
+  color: darkgreen;
+}
+
+.name1 {
+  color: darkred;
+}
+
+#quote {
+  background-color: rgb(70, 100, 113);
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.img1 {
+  width: 300px;
+  height: 200px;
+  margin: 20px auto;
+}
+
+/*experience and education*/
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 30px 0;
+  padding: 0 20px;
+}
+
+.wrapper,
+.wrapper1 {
+  flex: 1;
+  min-width: 48%;
+}
+
+.head2 {
+  color: darkred;
+  font-size: 30px;
+   text-align: left;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+ol {
+  padding-left: 30px;
+  line-height: 1.8;
+  list-style-position: outside;
+}
+
+li {
+  margin-bottom: 15px;
+  color: darkgreen;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.text3 {
+  color: darkgreen;
+  font-weight: bolder;
+}
+
+/*link*/
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+abbr {
+  text-decoration: dotted underline;
+  cursor: help;
+}
+
+/*skills*/
+.head3 {
+  color: darkred;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+.skill-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.head4 {
+  color: darkgreen;
+  margin-bottom: 5px;
+}
+
+.ul {
+  color: darkgreen;
+  font-size: 18px;
+  padding-left: 20px;
+  list-style-type: square;
+}
+
+/*images*/
+.cdn {
+  width: 700px;
+  height: 250px;
+  display: block;
+  margin: 20px 0; /* top and bottom margin only */
+}
+
+
+.img2 {
+  width: 400px;
+  height: 250px;
+  
+  margin: 20px auto;
+}
+
+/*table*/
+.table {
+  width: 60%;
+  border: 1.5px solid darkred;
+  border-collapse: collapse;
+  text-align: center;
+  color: darkgreen;
+  margin: 20px auto;
+  margin-left: 20px;
+}
+
+.th_td {
+  border: 1.5px solid darkred;
+  padding: 8px;
+}
+
+/*text block*/
+.text4 {
+  color: darkgreen;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.text5 {
+  background-color: hsl(9, 80%, 80%);
+  font-size: 40px;
+  font-weight: bolder;
+  color: darkgreen;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.text6 {
+  color: red;
+  font-weight: 700;
+}
+
+.text7 {
+  text-align: center;
+  color: mediumvioletred;
+}
+
+.text8 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  color: darkgreen;
+}
+
+/*quoto*/
+#Quran {
+  background-color: rgba(180, 50, 20, 0.2);
+  color: darkmagenta;
+  font-size: 130%;
+  font-family: 'Times New Roman', serif;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+/*aud_vid*/
+.aud_vid_text {
+  color: darkred;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 15px 0 5px;
+}
+
+.video {
+  width: 400px;
+  height: 150px;
+  margin: 10px auto;
+}
+
+/*click me*/
+.button {
+  color: darkgreen;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  border: 2px solid darkgreen;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.button:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+/*footer*/
+.head5 {
+  color: darkmagenta;
+  font-family: sans-serif; 
+  margin-top: 40px;
+}
+
