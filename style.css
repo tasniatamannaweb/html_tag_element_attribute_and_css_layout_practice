@@ -26,12 +26,6 @@ body {
   background-color: ghostwhite;
 }
 
-.text2 {
-  font-size: 18px;
-  font-weight: 750;
-  color: darkgreen;
-}
-
 .name1 {
   color: darkred;
 }
@@ -52,30 +46,21 @@ body {
 
 /*experience and education*/
 .container {
-  display: flex;
-  align-items: flex-start;
-  gap: 40px;
-  margin: 30px 0;
-  padding: 0 20px;
+  overflow: hidden;
 }
 
-.wrapper,
-.wrapper1 {
-  flex: 1;
-  min-width: 48%;
+.wrapper{
+  float: left;
+  min-height: 100px;
+  min-width: 50%;
 }
 
 .head2 {
   color: darkred;
   font-size: 30px;
-   text-align: left;
+  text-align: left;
   margin-top: 40px;
   margin-bottom: 20px;
-}
-
-.highlight {
-  background-color: yellow;
-  font-weight: bold;
 }
 
 ol {
@@ -91,20 +76,26 @@ li {
   font-weight: bolder;
 }
 
-.text3 {
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.text2 {
   color: darkgreen;
   font-weight: bold;
+  font-size: 18px;
+}
+
+abbr {
+  text-decoration: dotted underline;
+  cursor: help;
 }
 
 /*link*/
 a {
   color: blue;
   text-decoration: underline;
-}
-
-abbr {
-  text-decoration: dotted underline;
-  cursor: help;
 }
 
 /*skills*/
@@ -117,15 +108,13 @@ abbr {
 }
 
 .skills-container {
-  display: flex;
-  gap: 30px;
-  padding: 0 20px;
-  margin-bottom: 30px;
+  overflow: hidden;
 }
 
 .skill-section {
-  flex: 1;
-  min-width: 250px;
+  float: left;
+  min-height: 100px;
+  min-width: 30%;
 }
 
 .head4 {
@@ -137,7 +126,7 @@ abbr {
   color: darkgreen;
   font-size: 18px;
   padding-left: 20px;
-  list-style-type: square;
+  list-style-type: circle;
 }
 
 /*images*/
@@ -152,7 +141,6 @@ abbr {
 .img2 {
   width: 400px;
   height: 250px;
-  
   margin: 20px auto;
 }
 
@@ -172,14 +160,7 @@ abbr {
   padding: 8px;
 }
 
-/*text block*/
-.text4 {
-  color: darkgreen;
-  font-size: 18px;
-  font-weight: bolder;
-}
-
-.text5 {
+.text3 {
   background-color: hsl(9, 80%, 80%);
   font-size: 40px;
   font-weight: bolder;
@@ -188,22 +169,14 @@ abbr {
   margin: 20px 0;
 }
 
-.text6 {
+.text4 {
   color: red;
   font-weight: 700;
 }
 
-.text7 {
+.text5 {
   text-align: center;
   color: mediumvioletred;
-}
-
-.text8 {
-  text-align: center;
-  font-size: 25px;
-  font-weight: bold;
-  font-style: italic;
-  color: darkgreen;
 }
 
 /*quoto*/
@@ -256,6 +229,4 @@ abbr {
   font-family: sans-serif; 
   margin-top: 40px;
 }
-
-
 
